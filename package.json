@@ -3,5 +3,10 @@
     "main": "app.js",
     "dependencies": {
         "moment": "^2.29.4"
+    },
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build && next expert",
+        "start": "next start --port 80"
     }
 }
